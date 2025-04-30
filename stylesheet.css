@@ -273,3 +273,53 @@ height: 400px;}
     .card2:hover,.card:hover{
         background-color:lightgray;
     }
+
+
+/* Responsive images in the slider */
+#home img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+
+/* Responsive section padding for small screens */
+@media (max-width: 600px) {
+    section {
+        padding: 20px;
+    }
+
+    .logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img {
+        margin: 0 0 10px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .card, .card2 {
+        width: 90%;
+    }
+
+    #slides .inner {
+        height: auto;
+    }
+
+    #controls {
+        display: none;
+    }
+
+    #bullets {
+        margin: 20px 0 0;
+    }
+
+    #slides .slide {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
