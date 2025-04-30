@@ -2,7 +2,7 @@
 
 const imageContainer = document.getElementById('image-container');
         const imageCount = 19; // Total number of images
-        const basePath = 'imges/'; // Ensure proper path format with a trailing slash
+        const basePath = 'images/'; // Ensure proper path format with a trailing slash
 
         for (let i = 8; i <= imageCount; i++) {
             const img = document.createElement('img');
